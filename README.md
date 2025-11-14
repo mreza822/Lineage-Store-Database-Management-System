@@ -4,3 +4,7 @@ Designed and coded a database management system utilizing the lineage store ("L-
 Employs columnar data storage and base/tail page structure, with periodical record merging as a background thread.
 
 Implements database functionalities (open, close, etc.), table management, table-page architecture, query interface, transaction management, column indexing, bufferpool management, record locking for smooth concurrency, data loss prevention, etc.
+
+TODO: Refine "transaction" object for smooth query processing and concurrency protocol.
+
+(Based on this paper: https://arxiv.org/abs/1601.04084)
